@@ -54,3 +54,33 @@ The $D$ in this example is $D=2$. $x = \begin{matrix} 6.8 \\ 7.4 \end{matrix}$
 
 **Predicted Output**: represented with $y$.
 
+###### Training Data Set
+
+The training data set consists of (input, target output) example pairs or ($x^{(1)}$, $t^{(1)}$). The superscripts represent indices of the data. and the subscript is the index of the vector data. i.e. $x^{1}_{2}$
+
+
+###### Supervised Learning Models
+
+**Hypothesis:** is a specific function of $f$, that maps x to an output prediction y.
+
+**Learning:** is the process of choosing a hypothesis $f$ using the training data. 
+
+**Inference:** is the process of using a hypothesis f, to make predictions.
+![[Pasted image 20260118144304.png]]
+
+###### Accuracy and Error
+
+Accuracy = $\frac{\text{Num Correct Predictions}}{\text{Num total predictions}}$
+Error = 1 - Accuracy
+
+
+#### Nearest Neighbours
+
+#### 1-NN
+
+The boundary is where a point is **equally close to two training points of different classes**.
+
+#### K-NN
+
+
+
