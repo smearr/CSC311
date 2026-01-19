@@ -82,5 +82,29 @@ The boundary is where a point is **equally close to two training points of diffe
 
 #### K-NN
 
+The boundary where k points are equally close to two training points of different classes.
+
+
+
+#### Terminology
+- Decision Boundary: Set of points in the input space x ∈ RD where a classifier’s output is ambiguous.
+- Accuracy: The percentage of correctly classified data points over some labelled data set.
+- Error: The percentage of incorrectly classified data points over some labelled data set.
+- Training Set: A subset of the labelled data points used for learning a hypothesis.
+- Validation Set: A subset of the labelled data points set aside for choosing/tuning hyperparameters.
+- Test Set: A subset of the labelled data points set aside for estimating how well a model generalizes to unseen data. To achieve a good estimate, this data set should not be used to make any decisions about the model, and should ideally be used only once.
+
+#### Choosing K
+
+If k is too small, we are overfitting the data and the model will be sensitive to outliers.
+
+If k is too large, we are underfitting the data and the model will be too simple and fail to capture important regularities.
+
+Balancing K requires using the validation set to tune the hyperparameter
+
+Nearest neighbours can be sensitive to the ranges of different features. So we normalize each dimension to be zero mean and unit variance. Normalize.
+
+
+
 
 
