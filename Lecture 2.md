@@ -8,6 +8,22 @@ We use a greedy approach to construct decision trees.
 - Pick a feature and candidate split that would most reduce a loss.
 - Split on that feature and recurse on subpartitions.
 
+#### Problems:
+- exponentially less data at lower levels
+- Too big of a tree can overfit the data
+- greedy algorithms are not always optimal
+- Trees can be pruned to make them more optimized
+
+### Machine Learning Pipeline
+- Collecting and understanding the data
+- clean an prepare the data
+	- determining which features to use
+	- splitting into training/validation/test sets
+- Model training and hyperparameter tuning (Validation Learning)
+- Evaluation generalization accuracy 
+- Additional testing
+- 
+
 # Information Theory
 
 
@@ -28,3 +44,4 @@ $$H(X) = -\sum_{x \in X}\sum_{y \in Y} p(x,y)\log_2p(x,y)$$
 $$H(X) = -\sum_{x \in X}\sum_{y \in Y} p(x,y)\log_2p(y|x)$$
 ![[Pasted image 20260118210330.png]]
 ![[Pasted image 20260118221254.png]]
+
